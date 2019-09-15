@@ -8,12 +8,15 @@
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.9.0/css/all.css"
     />
+    <link rel="stylesheet" href="css/styles.css" />
+
     <title>More | Kakao Clone</title>
   </head>
   <body>
     <div class="status-bar">
-      <div class="status-bar__column"></div>
-      <span class="status-bar__clock">13:54</span>
+      <div class="status-bar__column">
+        <span class="status-bar__clock">13:54</span>
+      </div>
       <div class="status-bar__column">
         <i class="fas fa-clock"></i>
         <i class="fas fa-volume-mute"></i>
@@ -77,7 +80,7 @@
           </li>
           <li class="more__btn">
             <span class="more__btn-icon">
-              <i class="fab fa-kickstarter-k fa-2x"></i>
+              <i class="fab fa-kickstarter-k"></i>
             </span>
             <span class="more__btn-title">
               Account
@@ -87,23 +90,20 @@
       </header>
       <section class="more__suggestions">
         <h5 class="more__title">Suggestions</h5>
-        <ul class="more__suggestion-list">
+        <ul class="more__suggestions-list">
           <li class="more__suggestion suggestion">
-            <img src="" alt="" class="suggestion__icon" />
             <span class="suggestion__icon">
-              <i class="fas fa-quote-right fa-2x"></i>
+              <i class="fas fa-quote-right"></i>
             </span>
             <span class="suggestion__title">Kakao Story</span>
           </li>
           <li class="more__suggestion suggestion">
-            <img src="" alt="" class="suggestion__icon" />
             <span class="suggestion__icon">
-              <i class="fas fa-beer fa-2x"></i>
+              <i class="fas fa-beer"></i>
             </span>
             <span class="suggestion__title">Kakao friends</span>
           </li>
           <li class="more__suggestion suggestion">
-            <img src="" alt="" class="suggestion__icon" />
             <span class="suggestion__icon">
               <i class="fas fa-gamepad fa-2x"></i>
             </span>
@@ -136,5 +136,8 @@
         </li>
       </ul>
     </nav>
+    <div class="bigScreen">
+      <span class="BigScreen__text">Please make your screen small!</span>
+    </div>
   </body>
 </html>

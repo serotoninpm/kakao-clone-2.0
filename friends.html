@@ -8,12 +8,15 @@
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.9.0/css/all.css"
     />
+    <link rel="stylesheet" href="css/styles.css" />
+
     <title>Friends | Kakao Clone</title>
   </head>
   <body>
     <div class="status-bar">
-      <div class="status-bar__column"></div>
-      <span class="status-bar__clock">13:54</span>
+      <div class="status-bar__column">
+        <span class="status-bar__clock">13:54</span>
+      </div>
       <div class="status-bar__column">
         <i class="fas fa-clock"></i>
         <i class="fas fa-volume-mute"></i>
@@ -37,7 +40,7 @@
     </header>
     <main class="friends">
       <header class="friends__header">
-        <div class="friends__friend friend friend--lg">
+        <div class="friends__friend friend">
           <div class="friend__column">
             <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
             <div class="friend__content">
@@ -55,7 +58,7 @@
         <h5 class="friends__title">Plus Friend</h5>
         <div class="friends__friend friend">
           <div class="friend__column">
-            <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
+            <img src="images/avatar.jpg" class="friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">
                 Plus Friend
@@ -68,7 +71,7 @@
         <h5 class="friends__title">Friends 14</h5>
         <li class="friends__friend friend friend--lg">
           <div class="friend__column">
-            <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
+            <img src="images/avatar.jpg" class="friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">
                 shin jaewook
@@ -81,9 +84,9 @@
           <div class="friend__column">
             <div class="friend__now-listening">
               <span>
-                how long will i love you (jaewook shin)
+                how long will (shin)
+                <i class="fas fa-play"></i>
               </span>
-              <i class="fas fa-play"></i>
             </div>
           </div>
         </li>
@@ -113,5 +116,8 @@
         </li>
       </ul>
     </nav>
+    <div class="bigScreen">
+      <span class="BigScreen__text">Please make your screen small!</span>
+    </div>
   </body>
 </html>
